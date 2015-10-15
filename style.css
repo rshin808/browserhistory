@@ -1,8 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  color: darkblue;
+  color: white;
   margin: 10px 50px 10px 50px;
-  background-color: ivory;
+  background-color: black;
 
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 #navbar li {
-  display: inline;
+  display: block;
 }
 
 #navbar a {
@@ -34,23 +34,4 @@ P {
   max-width: 900px;
 }
 
-.left{
-  float: left;
-  width: 300px;
-  padding: 1em;
-}
-
-.right {
-  position: absolute;
-  left: 670px;
-  width: 300px;
-  padding: 1em;
-}
-
-.center {
-  margin-left: 300px;
-  margin-right: 300px;
-  width: 300px;
-  padding: 1em;
-}
 
